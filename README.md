@@ -2,6 +2,8 @@
 
 Fun-made collection like [`areweguiyet`](https://areweguiyet.com/), but mainly for desktop application development.
 
+NOTE: unmaintained libraries are unconsidered.
+
 ## Stable
 
 [gtk]: https://docs.rs/gtk/
