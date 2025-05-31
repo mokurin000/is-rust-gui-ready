@@ -42,3 +42,13 @@ Fun-made collection like [`areweguiyet`](https://areweguiyet.com/), but mainly f
 | [makepad]            | MIT                   | --           | Yes     | Yes   | Yes   | Yes |
 | [native-windows-gui] | MIT                   | Win32 API    | Yes     | --    | --    | --  |
 | [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | --      | Yes   | --    | --  |
+
+## Other
+
+[imgui]: https://docs.rs/imgui
+[libui-ng]: https://github.com/libui-rs/libui
+
+| Crate      | License           | Backend | Windows | MacOS | Linux | Web |
+| ---------- | ----------------- | ------- | ------- | ----- | ----- | --- |
+| [imgui]    | MIT or Apache-2.0 | --      | Yes     | Yes   | Yes   | No  |
+| [libui-ng] | MIT or Apache-2.0 | --/GTK3 | Yes     | Yes   | Yes   | No  |
