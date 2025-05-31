@@ -29,6 +29,7 @@ Fun-made collection like [`areweguiyet`](https://areweguiyet.com/), but mainly f
 [gpui]: https://www.gpui.rs/
 [Freya]: https://freyaui.dev/
 [makepad]: https://makepad.dev/
+[winio]: https://github.com/compio-rs/winio
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 
@@ -42,6 +43,7 @@ Fun-made collection like [`areweguiyet`](https://areweguiyet.com/), but mainly f
 | [makepad]            | MIT                   | --           | Yes     | Yes   | Yes   | Yes |
 | [native-windows-gui] | MIT                   | Win32 API    | Yes     | --    | --    | --  |
 | [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | --      | Yes   | --    | --  |
+| [winio] (WIP)        | MIT                   | --/GTK4/Qt6  | Yes     | Yes   | Yes   | No  |
 
 ## Other
 
