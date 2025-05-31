@@ -24,12 +24,13 @@ Fun-made collection like [`areweguiyet`](https://areweguiyet.com/), but mainly f
 [egui]: https://www.egui.rs/
 [iced]: https://iced.rs/
 [slint]: https://slint.dev/
-[^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [native-windows-gui]: https://gabdube.github.io/native-windows-gui/native-windows-docs/index.html
 [cacao]: https://github.com/ryanmcgrath/cacao
 [gpui]: https://www.gpui.rs/
 [Freya]: https://freyaui.dev/
 [makepad]: https://makepad.dev/
+
+[^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 
 | Crate                | License               | Backend      | Windows | MacOS | Linux | Web |
 | -------------------- | --------------------- | ------------ | ------- | ----- | ----- | --- |
