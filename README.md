@@ -15,11 +15,11 @@ NOTE: unmaintained libraries are unconsidered.
 
 [FLTK]: https://fltk-rs.github.io/fltk-book/
 
-| Crate           | License   | Backend | Windows | MacOS | Linux | Web |
-| --------------- | --------- | ------- | ------- | ----- | ----- | --- |
-| [gtk], [relm]   | LGPLv2.1+ | GTK3    | Yes     | Yes   | Yes   | No  |
-| [gtk4], [relm4] | LGPLv2.1+ | GTK4    | Yes     | Yes   | Yes   | No  |
-| [FLTK]          | LGPL[^1]  | --      | Yes     | Yes   | Yes   | No  |
+| Crate           | License   | Backend | Cross | Web |
+| --------------- | --------- | ------- | ----- | --- |
+| [gtk], [relm]   | LGPLv2.1+ | GTK3    | Yes   | No  |
+| [gtk4], [relm4] | LGPLv2.1+ | GTK4    | Yes   | No  |
+| [FLTK]          | LGPL[^1]  | --      | Yes   | No  |
 
 ## Pure-Rust
 
@@ -37,26 +37,42 @@ NOTE: unmaintained libraries are unconsidered.
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 
-| Crate                | License               | Backend      | Windows | MacOS | Linux | Web |
-| -------------------- | --------------------- | ------------ | ------- | ----- | ----- | --- |
-| [slint]              | GPL-3.0 or custom[^2] | --/GTK3      | Yes     | Yes   | Yes   | Yes |
-| [egui]               | Apache-2.0 or MIT     | Glow/GTK3    | Yes     | Yes   | Yes   | Yes |
-| [gpui]               | Apache-2.0            | --           | Yes     | Yes   | Yes   | No  |
-| [xilem]              | Apache-2.0            | --           | Yes     | Yes   | Yes   | No  |
-| [iced]               | MIT                   | --           | Yes     | Yes   | Yes   | No  |
-| [makepad]            | MIT                   | --           | Yes     | Yes   | Yes   | Yes |
-| [azul]               | MIT                   | --           | Yes     | Yes   | Yes   | No  |
-| [Freya]              | MIT                   | --/GTK3      | Yes     | Yes   | Yes   | No  |
-| [winio] (WIP)        | MIT                   | --/GTK4/Qt6  | Yes     | Yes   | Yes   | No  |
-| [native-windows-gui] | MIT                   | Win32 API    | Yes     | --    | --    | --  |
-| [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | --      | Yes   | --    | --  |
+| Crate                | License               | Backend      | Cross | Web |
+| -------------------- | --------------------- | ------------ | ----- | --- |
+| [slint]              | GPL-3.0 or custom[^2] | --/GTK3      | Yes   | Yes |
+| [egui]               | Apache-2.0 or MIT     | Glow/GTK3    | Yes   | Yes |
+| [gpui]               | Apache-2.0            | --           | Yes   | No  |
+| [xilem]              | Apache-2.0            | --           | Yes   | Yes |
+| [iced]               | MIT                   | --           | Yes   | No  |
+| [makepad]            | MIT                   | --           | Yes   | Yes |
+| [azul]               | MIT                   | --           | Yes   | No  |
+| [Freya]              | MIT                   | --/GTK3      | Yes   | No  |
+| [winio] (WIP)        | MIT                   | --/GTK4/Qt6  | Yes   | No  |
+| [native-windows-gui] | MIT                   | Win32 API    | No    | --  |
+| [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | No    | --  |
+
+## Webview-based
+
+[tauri]: https://tauri.app/
+[dioxus]: https://dioxuslabs.com/
+[sciter]: https://sciter.com/
+
+[^3]: https://sciter.com/prices/
+
+| Crate    | License              | Mobile |
+| -------- | -------------------- | ------ |
+| [tauri]  | Apacha-2.0 or MIT    | Yes    |
+| [dioxus] | Apacha-2.0 or MIT    | Yes    |
+| [sciter] | Freeware or Paid[^3] | No     |
 
 ## Other
 
 [imgui]: https://docs.rs/imgui
 [libui-ng]: https://github.com/libui-rs/libui
+[rinf]: https://github.com/cunarist/rinf
 
-| Crate      | License           | Backend | Windows | MacOS | Linux | Web |
-| ---------- | ----------------- | ------- | ------- | ----- | ----- | --- |
-| [imgui]    | MIT or Apache-2.0 | --      | Yes     | Yes   | Yes   | No  |
-| [libui-ng] | MIT or Apache-2.0 | --/GTK3 | Yes     | Yes   | Yes   | No  |
+| Crate      | License           | Backend | Cross | Web | Mobile |
+| ---------- | ----------------- | ------- | ----- | --- | ------ |
+| [imgui]    | Apache-2.0 or MIT | --      | Yes   | No  | No     |
+| [libui-ng] | Apache-2.0 or MIT | --/GTK3 | Yes   | No  | No     |
+| [rinf]     | MIT / BSD-3       | Flutter | Yes   | Yes | Yes    |
