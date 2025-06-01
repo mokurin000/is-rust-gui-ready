@@ -32,6 +32,8 @@ NOTE: unmaintained libraries are unconsidered.
 [Freya]: https://freyaui.dev/
 [makepad]: https://makepad.dev/
 [winio]: https://github.com/compio-rs/winio
+[azul]: https://azul.rs/
+[xilem]: https://github.com/linebender/xilem
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 
@@ -39,13 +41,15 @@ NOTE: unmaintained libraries are unconsidered.
 | -------------------- | --------------------- | ------------ | ------- | ----- | ----- | --- |
 | [slint]              | GPL-3.0 or custom[^2] | --/GTK3      | Yes     | Yes   | Yes   | Yes |
 | [egui]               | Apache-2.0 or MIT     | Glow/GTK3    | Yes     | Yes   | Yes   | Yes |
+| [gpui]               | Apache-2.0            | --           | Yes     | Yes   | Yes   | No  |
+| [xilem]              | Apache-2.0            | --           | Yes     | Yes   | Yes   | No  |
 | [iced]               | MIT                   | --           | Yes     | Yes   | Yes   | No  |
-| [gpui]               | Apcache-2.0           | --           | Yes     | Yes   | Yes   | No  |
-| [Freya]              | MIT                   | --/GTK3      | Yes     | Yes   | Yes   | No  |
 | [makepad]            | MIT                   | --           | Yes     | Yes   | Yes   | Yes |
+| [azul]               | MIT                   | --           | Yes     | Yes   | Yes   | No  |
+| [Freya]              | MIT                   | --/GTK3      | Yes     | Yes   | Yes   | No  |
+| [winio] (WIP)        | MIT                   | --/GTK4/Qt6  | Yes     | Yes   | Yes   | No  |
 | [native-windows-gui] | MIT                   | Win32 API    | Yes     | --    | --    | --  |
 | [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | --      | Yes   | --    | --  |
-| [winio] (WIP)        | MIT                   | --/GTK4/Qt6  | Yes     | Yes   | Yes   | No  |
 
 ## Other
 
