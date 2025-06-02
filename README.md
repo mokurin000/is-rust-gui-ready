@@ -56,14 +56,16 @@ NOTE: unmaintained libraries are unconsidered.
 [tauri]: https://tauri.app/
 [dioxus]: https://dioxuslabs.com/
 [sciter]: https://sciter.com/
+[async-ui]: https://github.com/wishawa/async_ui
 
 [^3]: https://sciter.com/prices/
 
-| Crate    | License              | Mobile |
-| -------- | -------------------- | ------ |
-| [tauri]  | Apacha-2.0 or MIT    | Yes    |
-| [dioxus] | Apacha-2.0 or MIT    | Yes    |
-| [sciter] | Freeware or Paid[^3] | No     |
+| Crate      | License              | Mobile |
+| ---------- | -------------------- | ------ |
+| [tauri]    | Apacha-2.0 or MIT    | Yes    |
+| [dioxus]   | Apacha-2.0 or MIT    | Yes    |
+| [sciter]   | Freeware or Paid[^3] | No     |
+| [async-ui] | MPL-2.0              | No     |
 
 ## Other
 
