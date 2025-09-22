@@ -47,7 +47,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [makepad]            | MIT                   | --           | Yes   | Yes |
 | [azul]               | MIT                   | --           | Yes   | No  |
 | [Freya]              | MIT                   | --/GTK3      | Yes   | No  |
-| [winio] (WIP)        | MIT                   | --/GTK4/Qt6  | Yes   | No  |
+| [winio]              | MIT                   | Win32/WinUI<br>GTK4/Qt6  | Yes   | No  |
 | [native-windows-gui] | MIT                   | Win32 API    | No    | --  |
 | [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | No    | --  |
 
