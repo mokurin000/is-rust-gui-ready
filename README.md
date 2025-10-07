@@ -34,19 +34,21 @@ NOTE: unmaintained libraries are unconsidered.
 [winio]: https://github.com/compio-rs/winio
 [azul]: https://azul.rs/
 [xilem]: https://github.com/linebender/xilem
+[Ribir]: https://github.com/RibirX/Ribir
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 
 | Crate                | License               | Backend      | Cross | Web |
 | -------------------- | --------------------- | ------------ | ----- | --- |
 | [slint]              | GPL-3.0 or custom[^2] | --/GTK3      | Yes   | Yes |
-| [egui]               | Apache-2.0 or MIT     | Glow/GTK3    | Yes   | Yes |
+| [egui]               | Apache-2.0 or MIT     | winit        | Yes   | Yes |
 | [gpui]               | Apache-2.0            | --           | Yes   | No  |
 | [xilem]              | Apache-2.0            | --           | Yes   | Yes |
 | [iced]               | MIT                   | --           | Yes   | No  |
+| [Riber]              | MIT                   | winit        | Yes   | No  |
 | [makepad]            | MIT                   | --           | Yes   | Yes |
-| [azul]               | MIT                   | --           | Yes   | No  |
 | [Freya]              | MIT                   | --/GTK3      | Yes   | No  |
+| [azul]               | MIT                   | --           | Yes   | No  |
 | [winio]              | MIT                   | Win32/WinUI<br>GTK4/Qt6  | Yes   | No  |
 | [native-windows-gui] | MIT                   | Win32 API    | No    | --  |
 | [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | No    | --  |
