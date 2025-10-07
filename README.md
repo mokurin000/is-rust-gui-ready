@@ -11,23 +11,26 @@ NOTE: unmaintained libraries are unconsidered.
 [gtk4]: https://docs.rs/gtk4/
 [relm4]: https://docs.rs/relm4/
 
-[^1]: https://www.fltk.org/COPYING.php
-
 [FLTK]: https://fltk-rs.github.io/fltk-book/
+
+[native-windows-gui]: https://gabdube.github.io/native-windows-gui/native-windows-docs/index.html
+[cacao]: https://github.com/ryanmcgrath/cacao
+
+[^1]: https://www.fltk.org/COPYING.php
 
 | Crate           | License   | Backend | Cross | Web |
 | --------------- | --------- | ------- | ----- | --- |
 | [gtk], [relm]   | LGPLv2.1+ | GTK3    | Yes   | No  |
 | [gtk4], [relm4] | LGPLv2.1+ | GTK4    | Yes   | No  |
 | [FLTK]          | LGPL[^1]  | --      | Yes   | No  |
+| [native-windows-gui] | MIT                   | Win32 API    | No    | --  |
+| [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | No    | --  |
 
-## Pure-Rust
+## Desktop-first
 
 [egui]: https://www.egui.rs/
 [iced]: https://iced.rs/
 [slint]: https://slint.dev/
-[native-windows-gui]: https://gabdube.github.io/native-windows-gui/native-windows-docs/index.html
-[cacao]: https://github.com/ryanmcgrath/cacao
 [gpui]: https://www.gpui.rs/
 [Freya]: https://freyaui.dev/
 [makepad]: https://makepad.dev/
@@ -45,13 +48,12 @@ NOTE: unmaintained libraries are unconsidered.
 | [gpui]               | Apache-2.0            | --           | Yes   | No  |
 | [xilem]              | Apache-2.0            | --           | Yes   | Yes |
 | [iced]               | MIT                   | --           | Yes   | No  |
-| [Riber]              | MIT                   | winit        | Yes   | No  |
+| [Ribir]              | MIT                   | winit        | Yes   | No  |
 | [makepad]            | MIT                   | --           | Yes   | Yes |
 | [Freya]              | MIT                   | --/GTK3      | Yes   | No  |
 | [azul]               | MIT                   | --           | Yes   | No  |
 | [winio]              | MIT                   | Win32/WinUI<br>GTK4/Qt6  | Yes   | No  |
-| [native-windows-gui] | MIT                   | Win32 API    | No    | --  |
-| [cacao]              | MIT or MPL-2.0+       | Appkit/UIkit | No    | --  |
+
 
 ## Webview-based
 
@@ -74,9 +76,11 @@ NOTE: unmaintained libraries are unconsidered.
 [imgui]: https://docs.rs/imgui
 [libui-ng]: https://github.com/libui-rs/libui
 [rinf]: https://github.com/cunarist/rinf
+[flutter_rust_bridge]: https://github.com/fzyzcjy/flutter_rust_bridge
 
 | Crate      | License           | Backend | Cross | Web | Mobile |
 | ---------- | ----------------- | ------- | ----- | --- | ------ |
 | [imgui]    | Apache-2.0 or MIT | --      | Yes   | No  | No     |
 | [libui-ng] | Apache-2.0 or MIT | --/GTK3 | Yes   | No  | No     |
 | [rinf]     | MIT / BSD-3       | Flutter | Yes   | Yes | Yes    |
+| [flutter_rust_bridge] | MIT    | Flutter | Yes   | Yes | Yes    |
