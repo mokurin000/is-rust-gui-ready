@@ -2,6 +2,9 @@
 
 Fun-made collection like [`areweguiyet`](https://areweguiyet.com/), but mainly for desktop application development.
 
+If you dislike a quick glance, you can look deeper at
+[this documentation](https://github.com/Chaoses-Ib/Rust/blob/main/Libraries/GUI/).
+
 NOTE: unmaintained libraries are unconsidered.
 
 ## Stable
