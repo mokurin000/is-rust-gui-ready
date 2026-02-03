@@ -41,6 +41,7 @@ NOTE: unmaintained libraries are unconsidered.
 [azul]: https://azul.rs/
 [xilem]: https://github.com/linebender/xilem
 [Ribir]: https://github.com/RibirX/Ribir
+[Floem]: https://lap.dev/floem/
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [^3]: https://github.com/lapce/winit
