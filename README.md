@@ -52,8 +52,8 @@ NOTE: unmaintained libraries are unconsidered.
 | --------- | --------------------- | ----------------------- | ----- | --- |
 | [slint]   | GPL-3.0 or custom[^2] | --/GTK3                 | Yes   | Yes |
 | [egui]    | Apache-2.0 or MIT     | winit                   | Yes   | Yes |
+| [xilem]   | Apache-2.0            | winit                   | Yes   | Yes |
 | [gpui]    | Apache-2.0            | --                      | Yes   | No  |
-| [xilem]   | Apache-2.0            | --                      | Yes   | Yes |
 | [iced]    | MIT                   | --                      | Yes   | No  |
 | [Ribir]   | MIT                   | winit                   | Yes   | No  |
 | [vizia]   | MIT                   | winit                   | Yes   | No  |
