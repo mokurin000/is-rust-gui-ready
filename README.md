@@ -43,6 +43,7 @@ NOTE: unmaintained libraries are unconsidered.
 [Ribir]: https://github.com/RibirX/Ribir
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
+[^3]: https://github.com/lapce/winit
 
 | Crate     | License               | Backend                 | Cross | Web |
 | --------- | --------------------- | ----------------------- | ----- | --- |
@@ -52,6 +53,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [xilem]   | Apache-2.0            | --                      | Yes   | Yes |
 | [iced]    | MIT                   | --                      | Yes   | No  |
 | [Ribir]   | MIT                   | winit                   | Yes   | No  |
+| [Floem]   | MIT                   | winit*[^3]              | Yes   | No  |
 | [makepad] | MIT                   | --                      | Yes   | Yes |
 | [Freya]   | MIT                   | --/GTK3                 | Yes   | No  |
 | [azul]    | MIT                   | --                      | Yes   | No  |
