@@ -80,7 +80,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [sciter]   | Freeware or Paid[^3] | No     |
 | [async-ui] | MPL-2.0              | No     |
 
-# Web Apps
+## Web Apps
 
 [leptos]: https://github.com/leptos-rs/leptos
 [MoonZoon]: https://github.com/MoonZoon/MoonZoon
