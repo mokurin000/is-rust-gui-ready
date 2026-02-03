@@ -42,9 +42,11 @@ NOTE: unmaintained libraries are unconsidered.
 [xilem]: https://github.com/linebender/xilem
 [Ribir]: https://github.com/RibirX/Ribir
 [Floem]: https://lap.dev/floem/
+[vizia]: https://github.com/vizia/vizia/
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [^3]: https://github.com/lapce/winit
+[^4]: https://github.com/vizia/vizia/tree/main/crates/vizia_winit
 
 | Crate     | License               | Backend                 | Cross | Web |
 | --------- | --------------------- | ----------------------- | ----- | --- |
@@ -54,6 +56,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [xilem]   | Apache-2.0            | --                      | Yes   | Yes |
 | [iced]    | MIT                   | --                      | Yes   | No  |
 | [Ribir]   | MIT                   | winit                   | Yes   | No  |
+| [vizia]   | MIT                   | winit                   | Yes   | No  |
 | [Floem]   | MIT                   | winit*[^3]              | Yes   | No  |
 | [makepad] | MIT                   | --                      | Yes   | Yes |
 | [Freya]   | MIT                   | --/GTK3                 | Yes   | No  |
@@ -76,6 +79,19 @@ NOTE: unmaintained libraries are unconsidered.
 | [dioxus]   | Apacha-2.0 or MIT    | Yes    |
 | [sciter]   | Freeware or Paid[^3] | No     |
 | [async-ui] | MPL-2.0              | No     |
+
+# Web Apps
+
+[leptos]: https://github.com/leptos-rs/leptos
+[MoonZoon]: https://github.com/MoonZoon/MoonZoon
+[sycamore]: https://github.com/sycamore-rs/sycamore
+
+| Crate      | License              |
+| :--------: | :------------------: |
+| [leptos]   | MIT                  |
+| [MoonZoon] | MIT                  |
+| [sycamore] | MIT                  |
+
 
 ## Other
 
