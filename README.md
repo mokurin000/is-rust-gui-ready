@@ -127,3 +127,15 @@ NOTE: unmaintained libraries are unconsidered.
 |         React Native |       Great        | [Limited][rn-fast-refresh] |               --                |           Yes           | [`uniffi`] |
 | Kotlin Multiplatform | [Unofficial][kick] |   [Beta][kmp-hot-reload]   |               --                |           Yes           | [`gobley`] |
 |                slint |       Basic        |             No             | [Since 1.13][slint-live-reload] | [WIP][slint-a11y-issue] | [`slint`]  |
+
+
+## Note
+
+### Slint
+
+In Android, Chinese vendors may provide partially broken fonts, which slint renderers cannot work with.
+
+What make it worse, slint does not support custom fonts in non-software renderer, while the software renderer is
+not available to the `android-activity` backend.
+
+If you don't want to display CJK text, it's fine. Their community is the inverse of GNOME, every people really responsive.
