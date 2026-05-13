@@ -47,21 +47,25 @@ NOTE: unmaintained libraries are unconsidered.
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [^3]: https://github.com/lapce/winit
 [^4]: https://github.com/vizia/vizia/tree/main/crates/vizia_winit
+[^5]: https://github.com/RibirX/Ribir#support-platform
+[^6]: https://github.com/iced-rs/iced/issues/302
+[^7]: https://github.com/lapce/floem/issues/619#issuecomment-2408729839
+[^8]: https://github.com/zed-industries/zed/issues/12039#issuecomment-2119357583
 
-| Crate     | License               | Backend                 | Cross | Web |
-| --------- | --------------------- | ----------------------- | ----- | --- |
-| [slint]   | GPL-3.0 or custom[^2] | --/GTK3                 | Yes   | Yes |
-| [egui]    | Apache-2.0 or MIT     | winit                   | Yes   | Yes |
-| [xilem]   | Apache-2.0            | winit                   | Yes   | Yes |
-| [gpui]    | Apache-2.0            | --                      | Yes   | No  |
-| [iced]    | MIT                   | --                      | Yes   | No  |
-| [Ribir]   | MIT                   | winit                   | Yes   | No  |
-| [vizia]   | MIT                   | winit                   | Yes   | No  |
-| [Floem]   | MIT                   | winit*[^3]              | Yes   | No  |
-| [makepad] | MIT                   | --                      | Yes   | Yes |
-| [Freya]   | MIT                   | --/GTK3                 | Yes   | No  |
-| [azul]    | MIT                   | --                      | Yes   | No  |
-| [winio]   | MIT                   | Win32/WinUI<br>GTK4/Qt6 | Yes   | No  |
+| Crate     | License               | Backend                 | Mobile  | Web |
+| --------- | --------------------- | ----------------------- | ------- | --- |
+| [slint]   | GPL-3.0 or custom[^2] | --/GTK3                 | Yes     | Yes |
+| [egui]    | Apache-2.0 or MIT     | winit                   | Yes     | Yes |
+| [xilem]   | Apache-2.0            | winit                   | Yes     | Yes |
+| [gpui]    | Apache-2.0            | --                      | No[^8]  | No  |
+| [makepad] | MIT                   | --                      | Yes     | Yes |
+| [iced]    | MIT                   | --                      | WIP[^6] | No  |
+| [Ribir]   | MIT                   | winit                   | WIP[^5] | No  |
+| [Floem]   | MIT                   | winit*[^3]              | WIP[^7] | No  |
+| [vizia]   | MIT                   | winit*[^4]              | No      | No  |
+| [Freya]   | MIT                   | --/GTK3                 | Yes     | No  |
+| [azul]    | MIT                   | --                      | No      | No  |
+| [winio]   | MIT                   | Win32/WinUI<br>GTK4/Qt6 | No      | No  |
 
 
 ## Webview-based
@@ -71,13 +75,13 @@ NOTE: unmaintained libraries are unconsidered.
 [sciter]: https://sciter.com/
 [async-ui]: https://github.com/wishawa/async_ui
 
-[^3]: https://sciter.com/prices/
+[^9]: https://sciter.com/prices/
 
 | Crate      | License              | Mobile |
 | ---------- | -------------------- | ------ |
 | [tauri]    | Apacha-2.0 or MIT    | Yes    |
 | [dioxus]   | Apacha-2.0 or MIT    | Yes    |
-| [sciter]   | Freeware or Paid[^3] | No     |
+| [sciter]   | Freeware or Paid[^9] | No     |
 | [async-ui] | MPL-2.0              | No     |
 
 ## Web Apps
