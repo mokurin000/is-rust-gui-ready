@@ -137,9 +137,12 @@ NOTE: unmaintained libraries are unconsidered.
 
 ### Slint
 
-In Android, Chinese vendors may provide partially broken fonts, which slint renderers cannot work with.
+In Android, with some Chinese OEM fonts.xml and system fonts,
+parley may insufficiently handle glyth fallback, resulting tofu
+for some CJK characters.
 
-What make it worse, slint does not support custom fonts in non-software renderer, while the software renderer is
+What make it even worse, slint does not support custom fonts in non-software renderer, while the software renderer is
 not available to the `android-activity` backend.
 
-If you don't want to display CJK text, it's fine. Their community is the inverse of GNOME, every people really responsive.
+To workaround this, **before** the slint initialization, set `ANDROID_ROOT` and from here in a `fonts`
+sub directory release your fonts and set your default font family.
