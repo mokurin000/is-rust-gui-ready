@@ -65,7 +65,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [vizia]   | MIT                   | winit*[^4]              | No      | No  |
 | [Freya]   | MIT                   | --/GTK3                 | Yes     | No  |
 | [azul]    | MIT                   | --                      | No      | No  |
-| [winio]   | MIT                   | Win32/WinUI<br>GTK4/Qt6<br>Appkit/UIKit<br>Android View | Yes      | No  |
+| [winio]   | MIT                   | Win32/WinUI<br>GTK4/Qt5/Qt6<br>Appkit/UIKit<br>Android View | Yes      | No  |
 
 
 ## Webview-based
