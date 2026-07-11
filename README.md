@@ -144,5 +144,4 @@ for some CJK characters.
 What make it even worse, slint does not support custom fonts in non-software renderer, while the software renderer is
 not available to the `android-activity` backend.
 
-To workaround this, **before** the slint initialization, set `ANDROID_ROOT` and from here in a `fonts`
-sub directory release your fonts and set your default font family.
+To workaround this, **before** the slint initialization, hack [`shared_collection`](https://docs.rs/slint/latest/slint/fontique_010/fn.shared_collection.html).
