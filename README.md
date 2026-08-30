@@ -36,9 +36,7 @@ NOTE: unmaintained libraries are unconsidered.
 [slint]: https://slint.dev/
 [gpui]: https://www.gpui.rs/
 [Freya]: https://freyaui.dev/
-[makepad]: https://makepad.dev/
 [winio]: https://github.com/compio-rs/winio
-[azul]: https://azul.rs/
 [xilem]: https://github.com/linebender/xilem
 [Ribir]: https://github.com/RibirX/Ribir
 [Floem]: https://lap.dev/floem/
@@ -58,13 +56,11 @@ NOTE: unmaintained libraries are unconsidered.
 | [egui]    | Apache-2.0 or MIT     | winit                   | Yes     | Yes |
 | [xilem]   | Apache-2.0            | winit                   | Yes     | Yes |
 | [gpui]    | Apache-2.0            | --                      | No[^8]  | No  |
-| [makepad] | MIT                   | --                      | Yes     | Yes |
 | [iced]    | MIT                   | --                      | WIP[^6] | No  |
 | [Ribir]   | MIT                   | winit                   | WIP[^5] | No  |
 | [Floem]   | MIT                   | winit*[^3]              | WIP[^7] | No  |
 | [vizia]   | MIT                   | winit*[^4]              | No      | No  |
 | [Freya]   | MIT                   | --/GTK3                 | Yes     | No  |
-| [azul]    | MIT                   | --                      | No      | No  |
 | [winio]   | MIT                   | Win32/WinUI<br>GTK4/Qt5/Qt6<br>Appkit/UIKit<br>Android View | Yes      | No  |
 
 
