@@ -46,6 +46,7 @@ NOTE: unmaintained libraries are unconsidered.
 [agg-gui]: https://github.com/larsbrubaker/agg-gui
 [mirui]: https://github.com/W-Mai/mirui
 [wabou]: https://github.com/SunDoge/wabou
+[rosin]: https://github.com/sailbrush/rosin
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [^3]: https://github.com/lapce/winit
@@ -60,6 +61,7 @@ NOTE: unmaintained libraries are unconsidered.
 | --------- | --------------------- | ---------- | ------- | --- | ----- |
 | [slint]   | GPL-3.0 or custom[^2] | --/GTK3    | Yes     | Yes | Yes   |
 | [egui]    | Apache-2.0 or MIT     | winit      | Yes     | Yes | Yes   |
+| [rosin]   | Apache-2.0 or MIT     | AppKit     | No      | No  | Yes   |
 | [xilem]   | Apache-2.0            | winit      | Yes     | Yes | Yes   |
 | [wabou]   | Apache-2.0            | winit      | No      | No  | Yes   |
 | [gpui]    | Apache-2.0            | --         | No[^8]  | No  | No    |
