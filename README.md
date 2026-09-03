@@ -59,6 +59,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [xilem]   | Apache-2.0            | winit      | Yes     | Yes | Yes   |
 | [gpui]    | Apache-2.0            | --         | No[^8]  | No  | No    |
 | [iced]    | MIT                   | --         | WIP[^6] | No  | No    |
+| [mirui]   | MIT                   | SDL2/embed | No      | WIP | No    |
 | [agg-gui] | MIT                   | winit      | No      | Yes | No    |
 | [Ribir]   | MIT                   | winit      | WIP[^5] | No  | No    |
 | [Floem]   | MIT                   | winit*[^3] | WIP[^7] | No  | No    |
