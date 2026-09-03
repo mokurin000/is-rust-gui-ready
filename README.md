@@ -42,6 +42,7 @@ NOTE: unmaintained libraries are unconsidered.
 [Floem]: https://lap.dev/floem/
 [vizia]: https://github.com/vizia/vizia/
 [agg-gui]: https://github.com/larsbrubaker/agg-gui
+[mirui]: https://github.com/W-Mai/mirui
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [^3]: https://github.com/lapce/winit
