@@ -15,19 +15,21 @@ NOTE: unmaintained libraries are unconsidered.
 [relm4]: https://docs.rs/relm4/
 
 [FLTK]: https://fltk-rs.github.io/fltk-book/
+[wxDragon]: https://github.com/AllenDang/wxDragon/
 
 [native-windows-gui]: https://gabdube.github.io/native-windows-gui/native-windows-docs/index.html
 [cacao]: https://github.com/ryanmcgrath/cacao
 
 [^1]: https://www.fltk.org/COPYING.php
 
-| Crate                | License         | Backend      | Cross | Web | a11y       |
-| -------------------- | --------------- | ------------ | ----- | --- | ---------- |
-| [gtk], [relm]        | LGPLv2.1+       | GTK3         | Yes   | No  | Linux-only |
-| [gtk4], [relm4]      | LGPLv2.1+       | GTK4         | Yes   | No  | Yes        |
-| [FLTK]               | LGPL[^1]        | --           | Yes   | No  | Yes        |
-| [native-windows-gui] | MIT             | Win32 API    | No    | --  | Yes        |
-| [cacao]              | MIT or MPL-2.0+ | Appkit/UIkit | No    | --  | Yes        |
+| Crate                | License           | Backend      | Cross | a11y       |
+| -------------------- | ----------------- | ------------ | ----- | ---------- |
+| [gtk], [relm]        | LGPLv2.1+         | GTK3         | Yes   | Linux-only |
+| [gtk4], [relm4]      | LGPLv2.1+         | GTK4         | Yes   | Yes        |
+| [FLTK]               | LGPL[^1]          | --           | Yes   | Yes        |
+| [wxDragon]           | Apache-2.0 or MIT | wxWidgets    | Yes   | Yes        |
+| [native-windows-gui] | MIT               | Win32 API    | No    | Yes        |
+| [cacao]              | MIT or MPL-2.0+   | Appkit/UIkit | No    | Yes        |
 
 ## Desktop-first
 
@@ -43,6 +45,7 @@ NOTE: unmaintained libraries are unconsidered.
 [vizia]: https://github.com/vizia/vizia/
 [agg-gui]: https://github.com/larsbrubaker/agg-gui
 [mirui]: https://github.com/W-Mai/mirui
+[wabou]: https://github.com/SunDoge/wabou
 
 [^2]: https://github.com/slint-ui/slint?tab=License-1-ov-file#slint-license
 [^3]: https://github.com/lapce/winit
@@ -58,6 +61,7 @@ NOTE: unmaintained libraries are unconsidered.
 | [slint]   | GPL-3.0 or custom[^2] | --/GTK3    | Yes     | Yes | Yes   |
 | [egui]    | Apache-2.0 or MIT     | winit      | Yes     | Yes | Yes   |
 | [xilem]   | Apache-2.0            | winit      | Yes     | Yes | Yes   |
+| [wabou]   | Apache-2.0            | winit      | No      | No  | Yes   |
 | [gpui]    | Apache-2.0            | --         | No[^8]  | No  | No    |
 | [iced]    | MIT                   | --         | WIP[^6] | No  | No    |
 | [mirui]   | MIT                   | SDL2/embed | No      | WIP | No    |
